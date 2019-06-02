@@ -1,0 +1,81 @@
+body {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #f7ffce;
+  font-family: 'Roboto', sans-serif;
+}
+/* HEADER */
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar, .navbar-default {
+  background-color: #68a500;
+}
+
+.navbar-brand {
+  font-size: 3em;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar-toggle {
+  margin-top: 25px;
+
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+.nav, .navbar-nav {
+  background-color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li {
+  text-align: center;
+}
+/* END HEADER */
+
+/* MAIN CONTENT */
+
+#menu-title {
+  color: gray;
+  font-weight: bold;
+}
+
+#chicken {
+  background: grey;
+  margin: 20px 30px 20px 30px;
+  padding: 20px;
+}
+
+
+/* -------------------MEDIA QUERIES------------------- */
+
+/* DESKTOP md */
+
+/* @media (min-width: @screen-md-min) */
+@media (min-width: 992px) {
+
+}
+    
+
+
+
+/* TABLET sm */
+
+/* @media (min-width: @screen-sm-min)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+   
+
+
+/* MOBILE xs */
+/* @media (max-width: @screen-xs-max) */
+@media (max-width: 992px) {
+
+}
